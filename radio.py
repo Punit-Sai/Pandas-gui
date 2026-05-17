@@ -16,6 +16,7 @@ def show_selection():
 tk.Label(root, text="Select Gender:").pack()
 tk.Radiobutton(root, text="Male", variable=gender_var, value="Male").pack()
 tk.Radiobutton(root, text="Female", variable=gender_var, value="Female").pack()
+tk.Label(root, text="Hobby").pack()
 tk.Checkbutton(root, text="Coding", variable=hobby_var).pack(pady=10)
 tk.Button(root, text="Submit", command=show_selection).pack(pady=10)
 result_label = tk.Label(root, text="")
